@@ -7,6 +7,30 @@ theme:
   features:
     - navigation.instant
 
+markdown_extensions:
+  # Admonitions
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  # Formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  # Annotations  
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+
+  # Lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 # Page tree
 nav:
   - Home: index.md
+  - Pre-Reading: pre-reading.md
