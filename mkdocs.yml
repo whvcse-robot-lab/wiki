@@ -1,0 +1,12 @@
+site_name: whvcse-robot-lab wiki
+
+theme:
+  name: material
+
+  # Setting up navigation
+  features:
+    - navigation.instant
+
+# Page tree
+nav:
+  - Home: index.md
