@@ -34,3 +34,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Pre-Reading: pre-reading.md
+  - Standard:
+    - CodeStyle:
+      - C/C++: Standard/CodeStyles/Cpp.md
